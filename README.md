@@ -1,2 +1,26 @@
-# CODSOFT_TASK3
-A job portal application developed using Python, Tkinter, and SQLite. It enables recruiters to publish job openings and manage applications, while candidates can apply for jobs, upload resumes, and track application statuses.
+# CareerHub — CodSoft Task
+
+Job listings, candidate applications, resume file upload and recruiter status management.
+
+## Tech
+Python · Flask · SQLite · HTML · CSS · JavaScript
+
+## Run locally
+1. Install Python 3.10+.
+2. Open this folder in terminal.
+3. Create and activate a virtual environment:
+   ```bash
+   python -m venv .venv
+   # Windows:
+   .venv\\Scripts\\activate
+   # macOS/Linux:
+   source .venv/bin/activate
+   ```
+4. Install dependencies and start:
+   ```bash
+   pip install -r requirements.txt
+   python app.py
+   ```
+5. Visit http://127.0.0.1:5003
+
+The SQLite database is created and seeded automatically on first run. This is a learning/demo application; add authentication, CSRF protection, production configuration and privacy controls before real deployment.
